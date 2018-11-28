@@ -53,13 +53,12 @@
     "dashcore"
   ],
   "engines": {
-    "node": ">=0.12.0"
+    "node": ">=6"
   },
   "scripts": {
     "test": "NODE_ENV=test mocha -R spec --recursive"
   },
-  "main": "lib",
-  "dashcoreNode": "lib",
+  "main": "lib/index.js",
   "dependencies": {
     "async": "*",
     "@dashevo/dashcore-lib": "^0.15.5",
